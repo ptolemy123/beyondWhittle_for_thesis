@@ -1,0 +1,31 @@
+{
+    "args": [
+        "-std=gnu++14",
+        "-IC:/PROGRA~1/R/R-41~1.3/include",
+        "-DNDEBUG",
+        "-IC:/Users/Ptole/OneDrive/Documents/R/win-library/4.1/Rcpp/include",
+        "-IC:/Users/Ptole/OneDrive/Documents/R/win-library/4.1/RcppArmadillo/include",
+        "-IC:/Users/Ptole/OneDrive/Documents/R/win-library/4.1/BH/include",
+        "-DEIGEN_DONT_VECTORIZE",
+        "-nostdinc",
+        "-U_MSC_VER",
+        "-D__GNUC__=8",
+        "-D__GNUC_MINOR__=3",
+        "-D__GNUC_PATCHLEVEL__=0",
+        "-IC:/RBuildTools/4.0/mingw64/include/c++/8.3.0",
+        "-IC:/RBuildTools/4.0/mingw64/include/c++/8.3.0/x86_64-w64-mingw32",
+        "-IC:/RBuildTools/4.0/mingw64/include/c++/8.3.0/backward",
+        "-IC:/RBuildTools/4.0/mingw64/lib/gcc/x86_64-w64-mingw32/8.3.0/include",
+        "-IC:/RBuildTools/4.0/mingw64/include",
+        "-IC:/RBuildTools/4.0/mingw64/lib/gcc/x86_64-w64-mingw32/8.3.0/include-fixed",
+        "-IC:/RBuildTools/4.0/mingw64/x86_64-w64-mingw32/include",
+        "-include",
+        "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/.Rproj.user/8D141B71/compilation-database/mingw64/cpp-definitions.h"
+    ],
+    "pch": "RcppArmadillo",
+    "is_cpp": true,
+    "hash": "167995628815420215101542021522",
+    "compiler": "14695981039346656037",
+    "rversion": "4.1.3",
+    "dbversion": 1
+}

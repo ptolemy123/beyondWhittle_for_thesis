@@ -1,0 +1,714 @@
+[
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.cpp",
+        "file_last_write": 1542904406.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AGammaProcessPrior@F@lalpha#&1$@N@arma@S@Mat>#$@N@std@S@complex>#d#1",
+                "kind": 7,
+                "parent_name": "AGammaProcessPrior",
+                "name": "lalpha(const arma::cx_mat &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.cpp",
+                "line": 30,
+                "column": 28,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AGammaProcessPrior@F@beta#&1$@N@arma@S@Mat>#$@N@std@S@complex>#d#1",
+                "kind": 7,
+                "parent_name": "AGammaProcessPrior",
+                "name": "beta(const arma::cx_mat &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.cpp",
+                "line": 35,
+                "column": 28,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AGammaProcessPrior@F@e1#d#S",
+                "kind": 7,
+                "parent_name": "AGammaProcessPrior",
+                "name": "e1(double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.cpp",
+                "line": 40,
+                "column": 28,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AGammaProcessPrior@F@eab#d#d#d#S",
+                "kind": 7,
+                "parent_name": "AGammaProcessPrior",
+                "name": "eab(double, double, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.cpp",
+                "line": 45,
+                "column": 28,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@AGammaProcessPrior@F@lprior#&1$@N@arma@S@Col>#d#S0_#&1$@N@arma@S@Cube>#$@N@std@S@complex>#d#1",
+                "kind": 7,
+                "parent_name": "AGammaProcessPrior",
+                "name": "lprior(const arma::vec &, const arma::vec &, const arma::cx_cube &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.cpp",
+                "line": 50,
+                "column": 28,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.h",
+        "file_last_write": 1542903632.0,
+        "definitions": [
+            {
+                "usr": "c:@S@AGammaProcessPrior",
+                "kind": 2,
+                "parent_name": "",
+                "name": "AGammaProcessPrior",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/a_gamma_process_prior.h",
+                "line": 8,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/arma.cpp",
+        "file_last_write": 1542194996.0,
+        "definitions": [
+            {
+                "usr": "c:@F@pacf2AR#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "pacf2AR(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/arma.cpp",
+                "line": 12,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@genEpsARMAC#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "genEpsARMAC(Rcpp::NumericVector, Rcpp::NumericVector, Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/arma.cpp",
+                "line": 45,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@psd_arma#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#S0_#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "psd_arma(Rcpp::NumericVector, Rcpp::NumericVector, Rcpp::NumericVector, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/arma.cpp",
+                "line": 80,
+                "column": 15,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/arma.h",
+        "file_last_write": 1542015980.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+        "file_last_write": 1648990356.0,
+        "definitions": [
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@get_W#&1$@N@arma@S@Cube>#$@N@std@S@complex>#d#&1$@N@arma@S@Col>#d#S3_#I#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "get_W(const arma::cx_cube &, const arma::vec &, const arma::vec &, int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 35,
+                "column": 34,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@update_f_by_increment#&1$@N@arma@S@Mat>#$@N@std@S@complex>#d#I#",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "update_f_by_increment(const arma::cx_mat &, int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 60,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@update_f#",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "update_f",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 72,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@get_j#d#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "get_j(double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 85,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@get_k#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "get_k",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 92,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@eval#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "eval",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 97,
+                "column": 41,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@update_k#I#",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "update_k(int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 102,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@update_r#I#d#",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "update_r(int, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 109,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@update_U_phi#I#&1$@N@arma@S@Col>#d#",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "update_U_phi(int, const arma::vec &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 118,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@update_Z#I#d#",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "update_Z(int, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 128,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@get_U#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "get_U",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 142,
+                "column": 41,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@get_r#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "get_r",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 147,
+                "column": 37,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@bernsteinGammaPsd@F@get_Z#1",
+                "kind": 7,
+                "parent_name": "bernsteinGammaPsd",
+                "name": "get_Z",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.cpp",
+                "line": 152,
+                "column": 37,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.h",
+        "file_last_write": 1542723210.0,
+        "definitions": [
+            {
+                "usr": "c:@S@bernsteinGammaPsd",
+                "kind": 2,
+                "parent_name": "",
+                "name": "bernsteinGammaPsd",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/bernstein_gamma_psd.h",
+                "line": 9,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/beyondWhittle_types.h",
+        "file_last_write": 1542367990.0,
+        "definitions": [
+            {
+                "usr": "c:beyondWhittle_types.h@T@bernsteinGammaPsd",
+                "kind": 8,
+                "parent_name": "",
+                "name": "bernsteinGammaPsd",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/beyondWhittle_types.h",
+                "line": 3,
+                "column": 27,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.cpp",
+        "file_last_write": 1542813914.0,
+        "definitions": [
+            {
+                "usr": "c:@F@pFromV#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "pFromV(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.cpp",
+                "line": 12,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@vFromP#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#1d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "vFromP(Rcpp::NumericVector, const double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.cpp",
+                "line": 30,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@mixtureWeight#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mixtureWeight(Rcpp::NumericVector, Rcpp::NumericVector, unsigned int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.cpp",
+                "line": 45,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@densityMixture#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@Rcpp@S@Matrix>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "densityMixture(Rcpp::NumericVector, Rcpp::NumericMatrix)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.cpp",
+                "line": 68,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@unrollPsd#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unrollPsd(Rcpp::NumericVector, unsigned int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.cpp",
+                "line": 88,
+                "column": 15,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_np_help.h",
+        "file_last_write": 1542016522.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_algorithm.cpp",
+        "file_last_write": 1542814446.0,
+        "definitions": [
+            {
+                "usr": "c:@F@gibbs_multivariate_nuisance_cpp#$@N@arma@S@Mat>#d#$@N@Rcpp@S@Vector>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#$@N@arma@S@Mat>#$@N@std@S@complex>#d#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S4_#S4_#I#$@N@arma@S@Col>#d#S5_#S0_#S5_#d#d#S2_#I#I#d#b#I#d#$@N@Rcpp@S@Vector>#VI19#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "gibbs_multivariate_nuisance_cpp(arma::mat, Rcpp::IntegerVector, arma::cx_mat, Rcpp::NumericVector, Rcpp::NumericVector, Rcpp::NumericVector, int, arma::vec, arma::vec, arma::mat, arma::vec, double, double, arma::cx_mat, int, int, double, bool, int, double, Rcpp::List)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_algorithm.cpp",
+                "line": 26,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_algorithm.h",
+        "file_last_write": 1542721250.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+        "file_last_write": 1542812032.0,
+        "definitions": [
+            {
+                "usr": "c:@F@realValuedPsd#$@N@Rcpp@S@Vector>#VI15#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "realValuedPsd(Rcpp::ComplexVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 11,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@complexValuedPsd#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "complexValuedPsd(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 32,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@llike_whittle#&1$@N@arma@S@Mat>#$@N@std@S@complex>#d#&1$@N@arma@S@Cube>#S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "llike_whittle(const arma::cx_mat &, const arma::cx_cube &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 53,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@lprior_bernsteinGammaPsd#&1$@S@bernsteinGammaPsd#&1$@S@AGammaProcessPrior#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "lprior_bernsteinGammaPsd(const bernsteinGammaPsd &, const AGammaProcessPrior &, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 70,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@lpost_bernsteinGammaWhittle#&1$@N@arma@S@Mat>#$@N@std@S@complex>#d#&1$@S@bernsteinGammaPsd#&1$@S@AGammaProcessPrior#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "lpost_bernsteinGammaWhittle(const arma::cx_mat &, const bernsteinGammaPsd &, const AGammaProcessPrior &, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 79,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@mdft_cpp#&1$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mdft_cpp(const arma::mat &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 89,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@get_f_matrix#$@N@arma@S@Mat>#d#$@N@arma@S@Col>#d#S1_#I#$@N@Rcpp@S@Vector>#VI19#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "get_f_matrix(arma::mat, arma::vec, arma::vec, int, Rcpp::List)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 105,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@mean_center#&$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mean_center(arma::mat &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.cpp",
+                "line": 111,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/gibbs_vnp_help.h",
+        "file_last_write": 1542801872.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/matrix_cube.cpp",
+        "file_last_write": 1542814560.0,
+        "definitions": [
+            {
+                "usr": "c:@F@cx_cube_from_ComplexVector#$@N@Rcpp@S@Vector>#VI15#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cx_cube_from_ComplexVector(Rcpp::ComplexVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/matrix_cube.cpp",
+                "line": 20,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@cube_from_NumericVector#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cube_from_NumericVector(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/matrix_cube.cpp",
+                "line": 31,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@hasEigenValueSmallerZero#$@N@arma@S@Mat>#$@N@std@S@complex>#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "hasEigenValueSmallerZero(arma::cx_mat, double)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/matrix_cube.cpp",
+                "line": 41,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/matrix_cube.h",
+        "file_last_write": 1542724318.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/misc.cpp",
+        "file_last_write": 1542724060.0,
+        "definitions": [
+            {
+                "usr": "c:@F@acvMatrix#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "acvMatrix(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/misc.cpp",
+                "line": 10,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@acvBlockMatrix#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "acvBlockMatrix(arma::mat)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/misc.cpp",
+                "line": 26,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@acceptanceRate#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "acceptanceRate(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/misc.cpp",
+                "line": 44,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/misc.h",
+        "file_last_write": 1542724436.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/qpsd_cal_cpp_expedited.cpp",
+        "file_last_write": 1670645792.0,
+        "definitions": [
+            {
+                "usr": "c:@F@qpsd_cal_cpp_expedited#&$@N@arma@S@Mat>#d#S0_#&$@N@arma@S@Col>#d#&$@N@arma@S@Col>#i#S4_#S4_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "qpsd_cal_cpp_expedited(arma::mat &, arma::mat &, arma::colvec &, arma::uvec &, arma::uvec &, arma::uvec &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/qpsd_cal_cpp_expedited.cpp",
+                "line": 14,
+                "column": 14,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/registerDynamicSymbol.c",
+        "file_last_write": 1491545296.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+        "file_last_write": 1542813744.0,
+        "definitions": [
+            {
+                "usr": "c:@F@unit_trace_U_from_phi_cpp#&1$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unit_trace_U_from_phi_cpp(const arma::vec &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 24,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@get_U_cpp#&1$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "get_U_cpp(const arma::mat &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 52,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@unit_trace_x_from_phi#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unit_trace_x_from_phi(Rcpp::NumericVector)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 66,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@unit_trace_L_from_x#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unit_trace_L_from_x(arma::vec)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 84,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@unit_trace_jacobian_log_determinant#&1$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unit_trace_jacobian_log_determinant(const arma::vec &)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 100,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@unit_trace_p#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unit_trace_p(unsigned int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 126,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@unit_trace_q#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "unit_trace_q(unsigned int)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.cpp",
+                "line": 144,
+                "column": 15,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/unit_trace.h",
+        "file_last_write": 1542722036.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/varma.cpp",
+        "file_last_write": 1542724846.0,
+        "definitions": [
+            {
+                "usr": "c:@F@varma_transfer2psd#$@N@Rcpp@S@Vector>#VI15#@N@Rcpp@ST>1#T@PreserveStorage#S0_#$@N@arma@S@Mat>#$@N@std@S@complex>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "varma_transfer2psd(Rcpp::ComplexVector, Rcpp::ComplexVector, arma::cx_mat)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/varma.cpp",
+                "line": 12,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@transfer_polynomial#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "transfer_polynomial(Rcpp::NumericVector, arma::mat)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/varma.cpp",
+                "line": 32,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@epsilon_var#$@N@arma@S@Mat>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "epsilon_var(arma::mat, arma::mat)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/varma.cpp",
+                "line": 51,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sldmvnorm#$@N@arma@S@Mat>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sldmvnorm(arma::mat, arma::mat)",
+                "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/varma.cpp",
+                "line": 70,
+                "column": 8,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/Ptole/Desktop/new direction, bayesian GMM etc/2nd paper/posterior code/final simulation studies/package/beyondWhittle_1.1.3.tar/beyondWhittle_for_thesis/src/varma.h",
+        "file_last_write": 1542724854.0,
+        "definitions": [],
+        "hidden": false
+    }
+]
